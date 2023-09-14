@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: var(--color-nav);
+    font-size: 1.4rem;
+    justify-content: space-around;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.brand {
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+a {
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-fg);
+}
+
+#navbar a.active {
+    color: var(--color-active);
+}
+
+.nav-list {}
