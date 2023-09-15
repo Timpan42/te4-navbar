@@ -21,7 +21,7 @@ function NavBar() {
                 </NavLink>
 
                 <NavLink
-                    to="/about"
+                    to="/todo"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }>
