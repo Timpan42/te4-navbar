@@ -25,7 +25,7 @@ function NavBar() {
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }>
-                    About
+                    Todo list
                 </NavLink>
             </ul>
         </nav>

@@ -6,11 +6,12 @@ function TodoItem(props) {
 
     return (
         <li className="todo-item">
-            <div className='flex-container'>
+            <div>
                 <input
                     checked={completed}
                     onChange={() => (props.toggleTaskCompleted(id))}
                     type="checkbox"
+                    className='item-checkbox'
                 />
                 <label> {label} </label>
             </div>
