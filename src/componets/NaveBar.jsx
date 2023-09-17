@@ -19,13 +19,19 @@ function NavBar() {
                     }>
                     Home
                 </NavLink>
-
                 <NavLink
                     to="/todo"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }>
                     Todo list
+                </NavLink>
+                <NavLink
+                    to="/story"
+                    className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : ""
+                    }>
+                    Epic story
                 </NavLink>
             </ul>
         </nav>
